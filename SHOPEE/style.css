@@ -1,0 +1,385 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  background-color: #ff5005;
+  border-bottom: 2px solid #ff5005;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  width: 100%; 
+  margin-bottom: 0px
+}
+
+.logo-box {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 40%;
+  margin-top: 1%;
+}
+
+.logo {
+  max-width: 200%;
+  height: auto;
+  width: 25%;
+  margin-left: -140px;
+  margin-top: 10px
+}
+
+.toptext-nav{
+  color: white;
+  font-size: 12px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  margin-left: 350px;
+  font-family: 'Roboto', sans-serif
+}
+
+.topright-nav {
+ margin-bottom: 10px;
+ text-align: right;
+ color: white;
+ font-size: 12px;
+ right: 0;
+ top: 0;
+ position: absolute;
+ margin-right: 350px;
+}
+
+.search-container {
+  width: 46%;
+  margin-right: 50px;
+  border: solid;
+  background-color: white;
+  border-color: #ff5005;
+  padding-top: -10px;
+  height: 50px;
+  border-radius: 0;
+  margin-left: -1300px;
+  margin-top: 18px;
+
+}
+
+.signup {
+  color: gray;
+  font-size: 18px;
+  margin-bottom: 1%
+}
+
+.category {
+  margin: 20px 0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-top: -20px;
+  font-size:81%;
+  margin-left: 38px
+}
+
+
+.category-item {
+  float: left; 
+  width: 25%; 
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.search{
+  border: solid #ff5005;
+  text-align: right;
+  margin-left: 794px;
+  margin-right: 9px;
+  margin-top: -9%;
+  right: 40px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 14px;
+  margin-top: -47px;
+  margin-bottom: 3%;
+ border-radius: 0;
+ background-color: #ff5005;
+ color: white;
+ width: 55px
+}
+.christmas-deal{
+  width: 780px;
+  margin-left: 330px;
+  margin-top: 10px;
+}
+.ensure{
+  width: 380px;
+  position: absolute;
+  margin-top: 129px;
+  margin-left: 5px
+}
+.razor{
+  width: 380px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 5px
+}
+.coins{
+  text-align: center;
+  font-size: 70%;
+  margin-top: 30px;
+  margin-left: -60%;
+  font-family: 'Roboto', sans-serif
+}
+.shipping{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -76.77px;
+  margin-left: -46.88%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.mall{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -75.77px;
+  margin-left: -33.88%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.coupon{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -75.77px;
+  margin-left: -21.66%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.nine{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -75.77px;
+  margin-left: -9.66%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.beauty{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -76.77px;
+  margin-left: 2.66%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.style{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -75.77px;
+  margin-left: 14.66%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.market{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -76.99px;
+  margin-left: 26.66%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.gadget{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -74.77px;
+  margin-left: 37.66%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.partner{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -76.77px;
+  margin-left: 48.66%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.items{
+background-color: lightgray;
+padding: 0;
+margin: 0;
+margin-top: 500px;
+position: absolute;
+top: 5px;
+left: 0;
+right: -1px;
+bottom: 5px;
+border: 5px solid lightgray;
+height: 60%
+}
+.categories{
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  position: relative;
+  top: 7px;
+  left: 0;
+  right: 0;
+  bottom: 5px;
+  border: 2px solid white;
+  height: 60%;
+  margin-left:15%;
+  margin-right:15%;
+  color: lightgray;
+  text-align: top left;
+  }
+.menapparel{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -280px;
+  margin-left: -60%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.mobilegadgets{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -5.04%;
+  margin-left: -47%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.mobileaccessories{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -5.06%;
+  margin-left: -34%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.entertainment{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -5.07%;
+  margin-left: -21%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.babies{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -5.08%;
+  margin-left: -9%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.living{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -5.09%;
+  margin-left: 2%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.groceries{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -5.10%;
+  margin-left: 13%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.toys{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -5.11%;
+  margin-left: 26%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.womenbag{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -5.12%;
+  margin-left: 39%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.womenaccessories{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -5.13%;
+  margin-left: 52%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.womenapparel{
+  text-align: center;
+  font-size: 70%;
+  margin-top: 3%;
+  margin-left: -60%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.healthcare{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -5.04%;
+  margin-left: -47%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.fragrances{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -5.06%;
+  margin-left: -34%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.appliance{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -5.07%;
+  margin-left: -21%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.laptop{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -5.08%;
+  margin-left: -9%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.camera{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -5.09%;
+  margin-left: 2%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.sports{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -5.10%;
+  margin-left: 13%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.menshoes{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -5.12%;
+  margin-left: 39%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.motors{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -5.13%;
+  margin-left: 52%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
